@@ -18,6 +18,8 @@ module.exports = function (api) {
             "node:os": "os-browserify",
             path: "path-browserify",
             "node:path": "path-browserify",
+            events: "react-native-events",
+            "node:events": "react-native-events",
           },
         },
       ],

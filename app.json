@@ -2,6 +2,7 @@
   "expo": {
     "name": "js-libp2p-react-native",
     "slug": "js-libp2p-react-native",
+    "scheme": "io.libp2p.js-libp2p-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,9 +12,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "io.libp2p.js-libp2p-react-native"
@@ -27,6 +26,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-router"]
   }
 }
